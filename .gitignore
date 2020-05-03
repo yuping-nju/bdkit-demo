@@ -1,0 +1,13 @@
+#
+# Visual Studio Code
+#
+.settings/
+.classpath
+.project
+.vscode/
+
+#
+# Mac OS
+#
+.DS_Store
+

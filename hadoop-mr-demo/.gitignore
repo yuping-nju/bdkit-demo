@@ -1,0 +1,29 @@
+#
+# Standard Maven .gitignore
+#
+target/classes
+target/generated-*
+target/maven-*
+target/surefire-reports
+target/test-classes
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+#
+# Visual Studio Code
+#
+.settings/
+.classpath
+.project
+.vscode/
+
+#
+# Mac OS
+#
+.DS_Store

@@ -1,0 +1,23 @@
+#
+# Spark
+#
+spark-warehouse
+metastore_db
+project
+target/scala-2.11/classes
+target/scala-2.11/update
+target/streams
+checkpoint
+
+#
+# Visual Studio Code
+#
+.settings/
+.classpath
+.project
+.vscode/
+
+#
+# Mac OS
+#
+.DS_Store

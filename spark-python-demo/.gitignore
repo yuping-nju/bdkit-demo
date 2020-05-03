@@ -1,0 +1,18 @@
+#
+# Spark
+#
+spark-warehouse
+metastore_db
+
+#
+# Visual Studio Code
+#
+.settings/
+.classpath
+.project
+.vscode/
+
+#
+# Mac OS
+#
+.DS_Store
