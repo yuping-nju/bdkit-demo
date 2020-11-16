@@ -15,9 +15,9 @@ public class HBaseTest {
     static {
         //1.获得Configuration实例并进行相关设置
         configuration = HBaseConfiguration.create();
-        //configuration.set("hbase.zookeeper.quorum","localhost");
-        //sconfiguration.set("hbase.zookeeper.property.clientPort", "2181");
-        configuration.addResource(HBaseTest.class.getResource("hbase-site.xml"));
+        configuration.set("hbase.zookeeper.quorum","localhost");
+        configuration.set("hbase.zookeeper.property.clientPort", "2181");
+        //configuration.addResource(HBaseTest.class.getResource("hbase-site.xml"));
         //2.获得Connection实例
         try {
             connection = ConnectionFactory.createConnection(configuration);
@@ -31,7 +31,7 @@ public class HBaseTest {
     public static void main(String[] args) throws IOException {
         //创建表
         String  familyNames[]={"Description","Courses","Home"};
-        createTable("students_new",familyNames);
+        createTable("students",familyNames);
         //向表中插入001数据
         insert("students","001","Description","Name","Li Lei");
         insert("students","001","Description","Height","176");
