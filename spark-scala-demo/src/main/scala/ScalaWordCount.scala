@@ -17,7 +17,7 @@ object ScalaWordCount {
      
      counts.collect()
     
-     counts.saveAsTextFile("output")
+     counts.saveAsTextFile("hdfs://localhost:9000/user/yuping/spark-demo/output-scala")
   
      sc.stop()
    }

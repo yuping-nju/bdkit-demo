@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="org.scala-sbt.temp"
+		module="temp-module-518b91374cbcb06003d475b7704c2316602396eb"
+		revision="1.1.7"
+		conf="test"
+		confs="compile, runtime, test, provided, optional"
+		date="20201130133806"/>
+	<dependencies>
+		<module organisation="org.scala-sbt" name="compiler-bridge_2.11">
+			<revision name="1.1.7" status="release" pubdate="20180508021801" resolver="public" artresolver="public" homepage="https://github.com/sbt/zinc" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="0">
+				<license name="BSD New" url="https://github.com/sbt/sbt/blob/0.13/LICENSE"/>
+				<metadata-artifact status="successful" details="" size="3671" time="3178" location="/Users/yuping/.ivy2/cache/org.scala-sbt/compiler-bridge_2.11/ivy-1.1.7.xml" searched="true" original-local-location="/Users/yuping/.ivy2/cache/org.scala-sbt/compiler-bridge_2.11/ivy-1.1.7.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-sbt/compiler-bridge_2.11/1.1.7/compiler-bridge_2.11-1.1.7.pom"/>
+				<caller organisation="org.scala-sbt.temp" name="temp-module-518b91374cbcb06003d475b7704c2316602396eb" conf="test, compile, runtime" rev="1.1.7" rev-constraint-default="1.1.7" rev-constraint-dynamic="1.1.7" callerrev="1.1.7"/>
+				<artifacts>
+					<artifact name="compiler-bridge_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="42055" time="7864" location="/Users/yuping/.ivy2/cache/org.scala-sbt/compiler-bridge_2.11/srcs/compiler-bridge_2.11-1.1.7-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-sbt/compiler-bridge_2.11/1.1.7/compiler-bridge_2.11-1.1.7-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-sbt" name="compiler-interface">
+			<revision name="1.1.7" status="release" pubdate="20180507141752" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/sbt/zinc" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="1">
+				<license name="BSD New" url="https://github.com/sbt/sbt/blob/0.13/LICENSE"/>
+				<metadata-artifact status="no" details="" size="2782" time="0" location="/Users/yuping/.ivy2/cache/org.scala-sbt/compiler-interface/ivy-1.1.7.xml" searched="false" origin-is-local="false" origin-location="file:////Users/yuping/.sbt/preloaded/org.scala-sbt/compiler-interface/1.1.7/ivys/ivy.xml"/>
+				<caller organisation="org.scala-sbt" name="compiler-bridge_2.11" conf="default, compile, runtime, master" rev="1.1.7" rev-constraint-default="1.1.7" rev-constraint-dynamic="1.1.7" callerrev="1.1.7"/>
+				<artifacts>
+					<artifact name="compiler-interface" type="jar" ext="jar" status="no" details="" size="90734" time="0" location="/Users/yuping/.ivy2/cache/org.scala-sbt/compiler-interface/jars/compiler-interface-1.1.7.jar">
+						<origin-location is-local="false" location="file:////Users/yuping/.sbt/preloaded/org.scala-sbt/compiler-interface/1.1.7/jars/compiler-interface.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-sbt" name="util-interface">
+			<revision name="1.1.3" status="release" pubdate="20180319142357" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/sbt/util" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="2">
+				<license name="BSD New" url="https://github.com/sbt/sbt/blob/0.13/LICENSE"/>
+				<metadata-artifact status="no" details="" size="2461" time="0" location="/Users/yuping/.ivy2/cache/org.scala-sbt/util-interface/ivy-1.1.3.xml" searched="false" origin-is-local="false" origin-location="file:////Users/yuping/.sbt/preloaded/org.scala-sbt/util-interface/1.1.3/ivys/ivy.xml"/>
+				<caller organisation="org.scala-sbt" name="compiler-interface" conf="compile, runtime" rev="1.1.3" rev-constraint-default="1.1.3" rev-constraint-dynamic="1.1.3" callerrev="1.1.7"/>
+				<artifacts>
+					<artifact name="util-interface" type="jar" ext="jar" status="no" details="" size="2327" time="0" location="/Users/yuping/.ivy2/cache/org.scala-sbt/util-interface/jars/util-interface-1.1.3.jar">
+						<origin-location is-local="false" location="file:////Users/yuping/.sbt/preloaded/org.scala-sbt/util-interface/1.1.3/jars/util-interface.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

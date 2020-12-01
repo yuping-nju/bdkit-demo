@@ -27,7 +27,7 @@ public class JavaWordCount {
         for (Tuple2<?, ?> tuple : output) {
             System.out.println(tuple._1() + ": " + tuple._2());
         }
-        counts.saveAsTextFile("output");
+        counts.saveAsTextFile("hdfs://localhost:9000/user/yuping/spark-demo/output-java");
         spark.stop();
     }
 }

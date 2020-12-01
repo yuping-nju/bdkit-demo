@@ -8,6 +8,7 @@ target/scala-2.11/classes
 target/scala-2.11/update
 target/streams
 checkpoint
+output
 
 #
 # Visual Studio Code

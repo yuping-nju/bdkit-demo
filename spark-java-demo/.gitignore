@@ -19,6 +19,7 @@ buildNumber.properties
 # Spark
 #
 spark-warehouse
+output
 
 #
 # Visual Studio Code
