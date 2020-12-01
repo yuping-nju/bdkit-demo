@@ -14,8 +14,8 @@ public class JavaWordCount {
     private static final Pattern SPACE = Pattern.compile(" ");
 
     public static void main(String[] args) throws Exception {
-        if (args.length < 1) {
-            System.err.println("Usage: JavaWordCount <file>");
+        if (args.length < 2) {
+            System.err.println("Usage: JavaWordCount <input_file> <output_path>");
             System.exit(1);
         }
         SparkSession spark = SparkSession.builder().appName("JavaWordCount").getOrCreate();
@@ -27,7 +27,7 @@ public class JavaWordCount {
         for (Tuple2<?, ?> tuple : output) {
             System.out.println(tuple._1() + ": " + tuple._2());
         }
-        counts.saveAsTextFile("hdfs://localhost:9000/user/yuping/spark-demo/output-java");
+        counts.saveAsTextFile(args[1]);
         spark.stop();
     }
 }

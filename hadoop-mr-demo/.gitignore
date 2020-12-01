@@ -27,3 +27,8 @@ buildNumber.properties
 # Mac OS
 #
 .DS_Store
+
+#
+# output
+#
+output

@@ -7,5 +7,6 @@
      --class "wc.JavaWordCount" \
      --master local \
      target/spark-java-demo-1.0-SNAPSHOT.jar \
-     <file url>
+     <input path> \
+     <output path>
    ```

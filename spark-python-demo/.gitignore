@@ -3,6 +3,7 @@
 #
 spark-warehouse
 metastore_db
+output
 
 #
 # Visual Studio Code
