@@ -4,8 +4,8 @@ import org.apache.spark.SparkContext._
 
 object ScalaWordCount {
    def main(args: Array[String]) {
-     if (args.length < 1) {
-       System.err.println("Usage: <file>")
+     if (args.length < 2) {
+       System.err.println("Usage: <input path> <output path")
        System.exit(1)
      }
 
@@ -17,7 +17,7 @@ object ScalaWordCount {
      
      counts.collect()
     
-     counts.saveAsTextFile("hdfs://localhost:9000/user/yuping/spark-demo/output-scala")
+     counts.saveAsTextFile(args(1))
   
      sc.stop()
    }
