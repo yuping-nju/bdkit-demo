@@ -9,5 +9,6 @@
      --class "ScalaWordCount" \
      --master spark://demo-master:7077 \
      target/scala-2.11/spark-scala-demo_2.11-1.0.jar \
-     hdfs://demo-master:9000/wordcount/input/wordcount_data.txt
+     <input path>
+     <output path>
    ```
