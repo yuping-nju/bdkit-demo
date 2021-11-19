@@ -47,12 +47,12 @@
     <dependency>
       <groupId>org.apache.hbase</groupId>
       <artifactId>hbase-client</artifactId>
-      <version>1.2.6</version>
+      <version>2.2.6</version>
     </dependency>
         <dependency>
       <groupId>org.apache.hbase</groupId>
       <artifactId>hbase-common</artifactId>
-      <version>1.2.6</version>
+      <version>2.2.6</version>
     </dependency>
   </dependencies>
 
@@ -84,7 +84,7 @@
 					  <classesDirectory>target/classes/</classesDirectory>
 					  <archive>
 					  	<manifest>
-						  	<mainClass>HBaseTest</mainClass>
+						  	<mainClass>HBaseTest2</mainClass>
 							  <useUniqueVersions>false</useUniqueVersions>
 							  <addClasspath>false</addClasspath>
 						  </manifest>
